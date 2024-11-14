@@ -1,2 +1,50 @@
-
 /* css */
+body{
+    font-family: 'Cormorant Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    height: 100vh;
+    background-image: url('/assets/img/1.jpg'); 
+}
+.book-overlay {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-color: rgba(156, 131, 109); 
+    clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%, 0% 10%);
+}
+.overlay-content h1{
+font-family: 'Cormorant Garamond', serif;
+font-weight: 400;
+font-size: 50px;
+line-height: normal; 
+letter-spacing: 0;
+}
+.overlay-content p{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 10px;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0; 
+}
+.overlay-content select{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100px;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0; 
+}
+.overlay-content .btn {
+    background-color: #D4B185;
+    border: none; 
+    box-shadow: none; 
+    padding: 0.5rem 1rem; 
+}
+.overlay-content .btn:hover {
+    background-color: rgba(212, 177, 133, 0.5); 
+    border: none;
+    box-shadow: none;
+}

@@ -122,7 +122,5 @@ function generateBooks() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    // Attach event listener to the Generate button
+
     document.querySelector("#generateButton").addEventListener("click", generateBooks);
-});

@@ -7,7 +7,7 @@ body{
 }
 #home{
     height: 100vh;
-    background-image: url('/assets/img/2.jpg'); 
+    background-image: url('../img/2.jpg'); 
 }
 .book-overlay {
     position: relative;

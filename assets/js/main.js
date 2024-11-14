@@ -122,7 +122,3 @@ function generateBooks() {
     }
 }
 
-
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector("#generateButton").addEventListener("click", generateBooks);
-  });
